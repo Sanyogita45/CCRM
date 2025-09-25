@@ -2,12 +2,12 @@
 
 ## Created By 
 
-Name : Sanyogita Singh
-Registration Number: 24BCE10550
-Course : Programming in Java
-Course Code: CSE2006
-Institution:VIT Bhopal University
-Submission Platform: Vityarthi
+Name : Sanyogita Singh<br>
+Registration Number: 24BCE10550<br>
+Course : Programming in Java<br>
+Course Code: CSE2006<br>
+Institution:VIT Bhopal University<br>
+Project for Vityarthi Course
 
 ## Project Overview
 
