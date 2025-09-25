@@ -1,26 +1,30 @@
 # Campus Course Records Manager
 
-## Made by 
+## Created By 
 
-Name : Sneha Tiwari
-Registration Number: 24BCE11287
+Name : Sanyogita Singh
+Registration Number: 24BCE10550
 Course : Programming in Java
 Course Code: CSE2006
 Institution:VIT Bhopal University
 Submission Platform: Vityarthi
 
-## About This Project
+## Project Overview
 
-This is my Java programming project for managing campus courses and student records. I built this application to learn object-oriented programming and file handling in Java. This project is part of my Programming in Java course this semester, submitted through Vityarthi platform.
+Campus Course & Records Manager (CCRM) is a console-based Java SE application designed to help an institute manage its academic records. It provides modules for students, courses, enrollment, grades, and file operations (import/export, backups).
+
+The project demonstrates core Object-Oriented Programming (OOP) concepts, modern Java features (Streams, Date/Time API, NIO.2), and design patterns (Singleton, Builder).
 
 ## How to Setup and Run
 
-### What You Need
-- Java JDK 21 or later
+### Requirements
+- Java JDK 17+
+- Eclipse IDE (or any Java IDE)
+- Git
 - Command Prompt or Terminal
 
-### Steps to Run:
-1. Download my project files
+### Compile & Run (CLI):
+1. Download the project files
 2. Open Command Prompt
 3. Go to the project folder:
    ```cd Desktop\CampusCourseRecordsManager\src```
@@ -29,7 +33,21 @@ This is my Java programming project for managing campus courses and student reco
 5. Run the program:
   ```cd ../out```
   ```java edu.ccrm.cli.CCRMApplication```
-## Features I Implemented
+
+Or simply run Main.java inside Eclipse
+
+
+## Project Structure
+edu.ccrm
+├─ cli/        # Console menu & input handling
+├─ domain/     # Person, Student, Instructor, Course, Enrollment, enums
+├─ service/    # Services for managing students, courses, enrollment, transcripts
+├─ io/         # Import/Export, Backup (NIO.2)
+├─ util/       # Validators, comparators, recursion utils
+├─ config/     # Singleton config (AppConfig)
+
+
+## Features Implemented
 
 ### Student Management
 
@@ -90,7 +108,7 @@ This is my Java programming project for managing campus courses and student reco
 - Java Platforms Comparison
 
 
-## Java Platforms Comparison
+## Java Editions
 
 | Aspect | Java ME | Java SE | Java EE |
 |--------|---------|---------|---------|
@@ -99,14 +117,14 @@ This is my Java programming project for managing campus courses and student reco
 | Target | IoT devices | Applications | Web Services |
 | This Project | ❌ | ✅  | ❌ |
 
-## JDK/JRE/JVM Explanation
+## Java Architecture
 
 ### JDK (Java Development Kit)
 It is a complete development package for Java programmers.
 It contains compiler (javac) to convert Java code to bytecode.
 It contains Tools (java, jar, javadoc) for development.
 It contains Libraries and development files.
-It is used for development Java applications.
+It is used for development of Java applications.
 
 
 ### JRE (Java Runtime Environment)
@@ -142,7 +160,6 @@ It makes Java platform-independent (Write Once, Run Anywhere).
 5. Set run configuration for CCRMApplication main class
 
 *(See screenshots/eclipse-setup.png)*
-
 
 
 ## Syllabus Topic Mapping
@@ -223,9 +240,16 @@ It makes Java platform-independent (Write Once, Run Anywhere).
 | Arrays | All services | Array operations |
 
 
-## Enabling Assertions
+## Assertions and Exceptions
 
 To enable assertions (for credit limit validation), run with the `-ea` flag:
 ```bash
 java -ea edu.ccrm.cli.CCRMApplication
 ```
+
+Custom exceptions include:
+
+- DuplicateEnrollmentException
+- MaxCreditLimitExceededException
+
+## Repo Owner: Sanyogita Singh / Sanyogita45
