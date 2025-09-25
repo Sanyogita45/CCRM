@@ -39,11 +39,11 @@ Or simply run Main.java inside Eclipse
 
 ## Project Structure
 edu.ccrm
-├─ cli/        # Console menu & input handling
-├─ domain/     # Person, Student, Instructor, Course, Enrollment, enums
-├─ service/    # Services for managing students, courses, enrollment, transcripts
-├─ io/         # Import/Export, Backup (NIO.2)
-├─ util/       # Validators, comparators, recursion utils
+├─ cli/        # Console menu & input handling<br>
+├─ domain/     # Person, Student, Instructor, Course, Enrollment, enums<br>
+├─ service/    # Services for managing students, courses, enrollment, transcripts<br>
+├─ io/         # Import/Export, Backup (NIO.2)<br>
+├─ util/       # Validators, comparators, recursion utils<br>
 ├─ config/     # Singleton config (AppConfig)
 
 
