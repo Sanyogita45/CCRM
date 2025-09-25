@@ -10,10 +10,10 @@ Campus Course & Records Manager (CCRM) – Console-Based Java Application
 2. Navigate to the project root directory.
 3. Compile all Java files:
 
-```
 bash
 ```
-javac -d bin src/edu/ccrm/**/*.java```
+javac -d bin src/edu/ccrm/**/*.java
+```
 
 ## Sample Console Session for CCRM
 
