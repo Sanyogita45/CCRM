@@ -38,7 +38,7 @@ Or simply run Main.java inside Eclipse
 
 
 ## Project Structure
-edu.ccrm
+edu.ccrm<br>
 ├─ cli/        # Console menu & input handling<br>
 ├─ domain/     # Person, Student, Instructor, Course, Enrollment, enums<br>
 ├─ service/    # Services for managing students, courses, enrollment, transcripts<br>
