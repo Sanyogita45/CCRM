@@ -38,13 +38,13 @@ Or simply run Main.java inside Eclipse
 
 
 ## Project Structure
-edu.ccrm<br>
+```edu.ccrm<br>
 ├─ cli/        # Console menu & input handling<br>
 ├─ domain/     # Person, Student, Instructor, Course, Enrollment, enums<br>
 ├─ service/    # Services for managing students, courses, enrollment, transcripts<br>
 ├─ io/         # Import/Export, Backup (NIO.2)<br>
 ├─ util/       # Validators, comparators, recursion utils<br>
-├─ config/     # Singleton config (AppConfig)
+├─ config/     # Singleton config (AppConfig)```
 
 
 ## Features Implemented
